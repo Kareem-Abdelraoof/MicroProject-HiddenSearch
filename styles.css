@@ -23,6 +23,7 @@ input {
     box-sizing: border-box;
     font-size: 25px;
     padding-left: 20px;
+    transition: width .5s, padding .5s;
 }
 
 input:focus {
@@ -47,5 +48,6 @@ img {
 }
 
 .disappearing {
-    display: none;
+    width: 1px;
+    padding: 0;
 }
